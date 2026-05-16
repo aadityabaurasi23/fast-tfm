@@ -4,6 +4,10 @@ on:
   release:
     types: [published]
 
+# --- NEW: Explicitly grant permission to upload files to the release ---
+permissions:
+  contents: write
+
 jobs:
   build:
     name: Build on ${{ matrix.os }}

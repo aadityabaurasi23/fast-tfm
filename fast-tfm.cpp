@@ -75,10 +75,11 @@ using ftxui::window;
 
 // Component helpers
 using ftxui::CatchEvent;
-using ftxui::Container;
 using ftxui::Input;
 using ftxui::Renderer;
 using ftxui::ScreenInteractive;
+
+namespace Container = ftxui::Container;
 
 // ═══════════════════════════════════════════════════════════════════
 //  Constants
